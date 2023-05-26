@@ -1,0 +1,155 @@
+/* Homepage and about page styles */
+ @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+}
+.divcontainer{
+    display: flex;
+    justify-content: center;
+}
+.inscription_name{
+    display: flex;
+    justify-content: center;
+    font-size:48px ;
+}
+.inscription_motto{
+   display: block;
+   text-align: center;
+   margin-top: 10px;
+  
+   font-size:21px ;
+}
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 1px;
+    color: #000;
+    background-color: #000;
+    margin-left: 5%;
+     margin-top: 20px;
+}
+
+.benefit_header{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+/*.benefit_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+}*/
+.benefit_list{
+    margin-left: 10%;
+    margin-top: 5px;
+
+}
+.benefit_list:nth-of-type(1){
+    margin-top: 20px;
+}
+.benefit_list span{
+    margin-left: 20%;
+    word-spacing: 5px;
+}
+.benefit_list_homepage{
+    margin-left: 20%;
+    margin-top: 7px;
+}
+.benefit_list_homepage span{
+    margin-left: 20%;
+    word-spacing: 10px;
+}
+.benefit_list_homepage:nth-of-type(1){
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.to_about{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.to_about a {
+    margin-left: 6px;
+}
+.signuporlogin{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #0000e3e0;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Kaushan Script', cursive;
+    cursor: pointer;
+     margin: 0px 10px 30px 0px;
+     box-shadow: none;
+     border: none;
+}
+.action_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.table_button a{
+    text-decoration: none;
+    color: #fff;
+}
+/*.signup_button{
+    margin-left: 40%;
+}
+.login_button{
+    margin-left: 7px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Table styles*/
+table{
+    margin: auto;
+    height: 100vh;
+    width: 80%;
+    margin-top: 5%;
+}
+table , th, td{
+    border: 2px solid #000;
+    border-collapse: collapse;
+    padding: 20px;
+}
+th{
+    font-size: 38px;
+}
